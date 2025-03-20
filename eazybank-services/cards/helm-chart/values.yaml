@@ -1,23 +1,23 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-deploymentName: team3-lsc-cards-deployment
-containerName: team3-lsc-cards-container
-serviceName: team3-lsc-cards-service
-appLabel: team3-lsc-cards-app
+deploymentName: team7-cards-hn-deployment
+containerName: team7-cards-hn-container
+serviceName: team7-cards-hn-service
+appLabel: team7-cards-hn-app
 
-replicaCount: 1
+replicaCount: 2
 
 image:
-  repository: group1-team3-lsc-cards
+  repository: group1-team7-cards-hn1
 
 service:
-  nodePort: 30317
+  nodePort: 30772
 
 
 eazybankcommon:
   service:
-    targetPort: 9207
-  containerPort: 9207
+    targetPort: 9102
+  containerPort: 9102
   image:
-    tag: v0.0.1
+    tag: latest
