@@ -5,7 +5,7 @@
 #    value: "${JAVA_HOME}/bin:${env.PATH}"
 global:
   namespace: group1-team7
-  configMapName: team7-configmap-hn
+  configMapName: team7-configmap-hn1
   activeProfile: prod
   # eurekaServerURL: "team6-eureka-cha-sv:80"
   # configServerURL: "team6-cfg-cha-sv:80"
