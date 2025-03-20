@@ -9,15 +9,18 @@ appLabel: team7-accounts-hn-app
 replicaCount: 2
 
 image:
-  repository: group1-team7-accounts-hn
+  #repository: group1-team7-accounts-hn
+  repository: group1-team6-cha-acc
 
 service:
-  nodePort: 30771
+  nodePort: 30775
 
 
 eazybankcommon:
   service:
-    targetPort: 9101
-  containerPort: 9101
+    #targetPort: 9101
+    targetPort: 8098
+  #containerPort: 9101
+  containerPort: 8098
   image:
     tag: latest
